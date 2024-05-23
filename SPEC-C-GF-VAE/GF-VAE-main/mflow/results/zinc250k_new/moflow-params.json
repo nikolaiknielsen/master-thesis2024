@@ -1,0 +1,49 @@
+{
+    "a_affine": true,
+    "a_hidden_gnn": [
+        256
+    ],
+    "a_hidden_lin": [
+        512,
+        64
+    ],
+    "a_n_block": 1,
+    "a_n_flow": 38,
+    "a_n_node": 38,
+    "a_n_type": 15,
+    "b_affine": true,
+    "b_conv_lu": 2,
+    "b_hidden_ch": [
+        512,
+        512
+    ],
+    "b_n_block": 1,
+    "b_n_flow": 10,
+    "b_n_squeeze": 19,
+    "b_n_type": 4,
+    "dec_dim": [
+        128,
+        128
+    ],
+    "device": 0,
+    "enc_conv_dim": [
+        [
+            256,
+            128
+        ],
+        128
+    ],
+    "enc_linear_dim": [
+        128
+    ],
+    "learn_dist": 1,
+    "mask_row_size_list": [
+        1
+    ],
+    "mask_row_stride_list": [
+        1
+    ],
+    "noise_scale": 0.6,
+    "path": "results/zinc250k_new/moflow-params.json",
+    "seed": 1
+}
